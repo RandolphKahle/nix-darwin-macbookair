@@ -1,0 +1,9 @@
+# Don't track the flake lock if you're not pinning versions
+# Or remove this line if you do want strict reproducibility
+flake.lock
+
+# Vim, Emacs, macOS junk
+*~
+.DS_Store
+
+
