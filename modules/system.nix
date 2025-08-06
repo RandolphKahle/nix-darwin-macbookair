@@ -9,6 +9,7 @@
   networking.hostName = "RandyMacStudio";
 
   system.stateVersion = 4;
+  system.primaryUser = "randolph";
 
   programs.zsh.enable = true;
 
@@ -16,10 +17,16 @@
     "/run/current-system/sw/bin" 
   ];
 
+  imports = [
+    ./macos-defaults.nix
+    ./brew.nix
+  ];
+
   # Packages
   environment.systemPackages = with pkgs; [
     curl
     git
+    tree
   ];
 
 
