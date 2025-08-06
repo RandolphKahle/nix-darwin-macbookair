@@ -10,7 +10,7 @@
   outputs = { self, nixpkgs, darwin, ... }:
   let
     system = "aarch64-darwin";
-    hostname = "RandyMacStudio";
+    hostname = "RandyMacBookAir";
   in {
     darwinConfigurations.${hostname} = darwin.lib.darwinSystem {
       inherit system;

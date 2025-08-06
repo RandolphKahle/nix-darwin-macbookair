@@ -1,2 +1,2 @@
- sudo darwin-rebuild switch --flake .#RandyMacStudio
+ sudo darwin-rebuild switch --flake .#RandyMacBookAir
 

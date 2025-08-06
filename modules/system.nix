@@ -6,7 +6,7 @@
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
 
   # Basic system identity
-  networking.hostName = "RandyMacStudio";
+  networking.hostName = "RandyMacBookAir";
 
   system.stateVersion = 4;
   system.primaryUser = "randolph";
