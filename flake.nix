@@ -2,8 +2,8 @@
   description = "nix-darwin management flake";
 
   inputs = {
-    nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
-    darwin.url = "github:lnl7/nix-darwin";
+    nixpkgs.url = "github:NixOS/nixpkgs/release-25.05";
+    darwin.url = "github:lnl7/nix-darwin/nix-darwin-25.05";
     darwin.inputs.nixpkgs.follows = "nixpkgs";
   };
 
