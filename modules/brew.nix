@@ -8,6 +8,7 @@
 
     casks = [
       "iterm2"
+      "brave-browser"
     ];
 
     # Automatically install missing brews/casks during `darwin-rebuild`
